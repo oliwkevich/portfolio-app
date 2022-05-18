@@ -15,13 +15,13 @@ export const Mail = () => {
             We can build together something really nice :)
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]">Vlad</span>
+            Hi, Im <span className="text-[#5651e5]">Vlad</span>
           </h1>
           <h1 className="py-4 text-gray-700">A Front-End WEB Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto text-2xl">
-            I'm a front-end web developer specializing in building (and
+            Im a front-end web developer specializing in building (and
             occasionally designing) exceptional digital experiences. Currently,
-            I'm focused on building responsive front-end web applications while
+            Im focused on building responsive front-end web applications while
             learning back-end technologies.
           </p>
           <div>
