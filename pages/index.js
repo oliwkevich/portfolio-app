@@ -1,8 +1,9 @@
 import Head from "next/head";
 import { About } from "../components/About";
+import { Contact } from "../components/Contact";
 import { Header } from "../components/Headers/Header";
 import { Mail } from "../components/Mail";
-import { Projects } from "../components/Projects";
+import { Projects } from "../components/Projects/Projects";
 import { Skills } from "../components/Skills/Skills";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
