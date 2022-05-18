@@ -6,39 +6,69 @@ import { MobHeader } from "./MobHeader";
 
 export const Header = () => {
   const [header, setHeader] = React.useState(false);
+  const [shadow, setShadow] = React.useState(false);
 
   const handleMenuClick = () => {
     setHeader((prev) => !prev);
-  }
+  };
+
+  React.useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-white">
+    <div
+      className={
+        shadow
+          ? "fixed w-full h-20 shadow-xl z-[100] bg-white"
+          : "fixed w-full h-20 z-[100]"
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <h1>olishkevich.</h1>
+        <Link href="/">
+          <h1 className="cursor-pointer">olishkevich.</h1>
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-xl hover:border-b border-gray-400">HOME</li>
+              <li className="ml-10 text-xl hover:border-b border-gray-400">
+                HOME
+              </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-xl hover:border-b border-gray-400">ABOUT</li>
+            <Link href="/#about">
+              <li className="ml-10 text-xl hover:border-b border-gray-400">
+                ABOUT
+              </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-xl hover:border-b border-gray-400">SKILLS</li>
+            <Link href="/#skills">
+              <li className="ml-10 text-xl hover:border-b border-gray-400">
+                SKILLS
+              </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-xl hover:border-b border-gray-400">PROJECTS</li>
+            <Link href="/#projects">
+              <li className="ml-10 text-xl hover:border-b border-gray-400">
+                PROJECTS
+              </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-xl hover:border-b border-gray-400">CONTACT</li>
+            <Link href="/#contact">
+              <li className="ml-10 text-xl hover:border-b border-gray-400">
+                CONTACT
+              </li>
             </Link>
           </ul>
           <div className="md:hidden ">
-            <AiOutlineMenu size={25} onClick={handleMenuClick}/>
+            <AiOutlineMenu size={25} onClick={handleMenuClick} />
           </div>
         </div>
       </div>
-      {header && <MobHeader setHeader={handleMenuClick}/>}
+      {header && <MobHeader setHeader={handleMenuClick} />}
     </div>
   );
 };

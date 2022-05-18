@@ -32,16 +32,16 @@ export const MobHeader = ({setHeader}) => {
               <Link href="/">
                 <li className="py-4 text-sm">HOME</li>
               </Link>
-              <Link href="/">
+              <Link href="/#about">
                 <li className="py-4 text-sm">ABOUT</li>
               </Link>
-              <Link href="/">
+              <Link href="/#skills">
                 <li className="py-4 text-sm">SKILLS</li>
               </Link>
-              <Link href="/">
+              <Link href="/#projects">
                 <li className="py-4 text-sm">PROJECTS</li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact">
                 <li className="py-4 text-sm">CONTACT</li>
               </Link>
             </ul>
