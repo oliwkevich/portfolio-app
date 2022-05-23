@@ -12,7 +12,7 @@ export const Mail = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase tracking-widest text-sm text-gray-600">
-            We can build together something really nice :)
+            We can build together something really nice
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, Im <span className="text-[#5651e5]">Vlad</span>

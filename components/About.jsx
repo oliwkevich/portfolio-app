@@ -26,7 +26,7 @@ export const About = () => {
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              You can check my last projects here :)
+              You can check my last projects here
             </p>
           </Link>
         </div>
@@ -35,7 +35,6 @@ export const About = () => {
         rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300"
         >
           <img
-            // src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHw%3D&w=1000&q=80"
             src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.6435-9/143405467_1356005654752287_4032978175318269531_n.jpg?_nc_cat=102&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=20p54wVL6cYAX-YNyL5&_nc_ht=scontent.fbud5-1.fna&oh=00_AT9RfWi4dBFfJ0grDei2rX5VEwXO1f4OWZgXMbm1xBJkuQ&oe=62AA42A6"
             alt="/"
             className="rounded-xl"
