@@ -1,7 +1,7 @@
 import React from "react";
 import { ProjectCart } from "./ProjectCart";
 
-import SDI from "../../public/assets/projects/stackline.jpg";
+import SDI from "../";
 import Disney from '../../public/assets/projects/dissney.jpg'
 import Weather from '../../public/assets/projects/weather.jpg'
 import MovieApp from '../../public/assets/projects/movieapp.jpg'
