@@ -30,19 +30,19 @@ export const MobHeader = ({setHeader}) => {
           <div className="py-4 flex flex-col">
             <ul>
               <Link href="/">
-                <li className="py-4 text-sm">HOME</li>
+                <li onClick={() => setHeader(false)} className="py-4 text-sm">HOME</li>
               </Link>
               <Link href="/#about">
-                <li className="py-4 text-sm">ABOUT</li>
+                <li onClick={() => setHeader(false)} className="py-4 text-sm">ABOUT</li>
               </Link>
               <Link href="/#skills">
-                <li className="py-4 text-sm">SKILLS</li>
+                <li onClick={() => setHeader(false)} className="py-4 text-sm">SKILLS</li>
               </Link>
               <Link href="/#projects">
-                <li className="py-4 text-sm">PROJECTS</li>
+                <li onClick={() => setHeader(false)} className="py-4 text-sm">PROJECTS</li>
               </Link>
               <Link href="/#contact">
-                <li className="py-4 text-sm">CONTACT</li>
+                <li onClick={() => setHeader(false)} className="py-4 text-sm">CONTACT</li>
               </Link>
             </ul>
             <div className="pt-40">

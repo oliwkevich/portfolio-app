@@ -16,11 +16,11 @@ export const Projects = () => {
         </p>
         <h2 className="py-4">Hover for more information...</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectCart title="SDI app." bg={SDI} projectURL="/" />
-          <ProjectCart title="Disney+ app." bg={Disney} projectURL="/" />
-          <ProjectCart title="Weather app." bg={Weather} projectURL="/" />
-          <ProjectCart title="Pizza app." bg={Pizza} projectURL="/" />
-          <ProjectCart title="Movie app." bg={MovieApp} projectURL="/" />
+          <ProjectCart title="SDI app." bg={SDI} projectURL="/stackline" />
+          <ProjectCart title="Disney+ app." bg={Disney} projectURL="/disney" />
+          <ProjectCart title="Weather app." bg={Weather} projectURL="/weather" />
+          <ProjectCart title="Pizza app." bg={Pizza} projectURL="/pizza" />
+          <ProjectCart title="Movie app." bg={MovieApp} projectURL="/movie" />
         </div>
       </div>
     </div>
