@@ -8,7 +8,7 @@ export const About = () => {
         <div className="col-span-2">
           <p className="text-xl tracking-widest text-[#5651e5]">ABOUT</p>
           <h2 className="py-4 ">Who I Am?</h2>
-          <p className="py-2 text-gray-600">// Im not your normal developer</p>
+          <p className="py-2 text-gray-600">P.S: Im not your normal developer</p>
           <p className="py-2 text-gray-600">
             Now I am 23 years old, and it was in this year that I began to study
             what is WEB development. At first I studied HTML and CSS, then I
